@@ -1,0 +1,61 @@
+body{
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 300px;
+}
+.counter-display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #222;
+}
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+#increment {
+    background: black;
+    color: white;
+}
+
+#increment:hover {
+    background: #45a049;
+}
+
+#decrement {
+    background: black;
+    color: white;
+}
+
+#decrement:hover {
+    background: #d32f2f;
+}
+
+#reset {
+    background: black;
+    color: white;
+}
+
+#reset:hover {
+    background: #1976D2;
+}
