@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let count = 0;
 
-    // Increment button
+
     incrementBtn.addEventListener("click", () => {
         count++;
         counterDisplay.textContent = count;
     });
 
-    // Decrement button (not below zero)
+
     decrementBtn.addEventListener("click", () => {
         if (count > 0) {
             count--;
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Reset button
+
     resetBtn.addEventListener("click", () => {
         count = 0;
         counterDisplay.textContent = count;
